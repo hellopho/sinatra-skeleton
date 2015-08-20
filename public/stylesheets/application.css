@@ -1,0 +1,113 @@
+
+
+
+/* Form CSS */
+
+
+.form-group {
+   
+    max-width: 280px;
+    margin: auto;
+}
+
+.form-wrapper input {
+  width: 100%;
+}
+
+.form-wrapper button {
+  width: 100%;
+  margin: 8px 0px 0px 0px;
+  
+}
+
+.form-group input[type="text"][name="first_name"] {
+    margin-bottom: -1px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.form-group input[type="text"][name="last_name"] {
+    margin-bottom: -1px;
+    border-radius: 0px;
+}
+
+.form-group input[type="email"][name="login_email"] {
+    margin-bottom: -1px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.form-group input[type="email"][name="signup_email"] {
+    margin-bottom: -1px;
+    border-radius: 0px;
+}
+
+.form-group input[type="password"][name="login_password"] {
+    z-index: 2;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 6px 6px;
+   
+}
+
+.form-group input[type="password"][name="signup_password"] {
+    z-index: 2;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 6px 6px;
+    
+}
+
+.form-control {
+
+  width: auto;
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 0px;
+  @include box-sizing(border-box);
+
+}
+
+.form-signin-heading {
+    
+    font-weight: bold;
+    text-shadow: 0px 1px 2px #111;
+    color: #A61422;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Cherry Swash', cursive, helvetica;
+    font-size: 60pt;
+  }
+
+.checkbox {
+  width: auto;
+}
+
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.form-group button[type="submit"] {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px auto 10px auto;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+
+}
+
+.form-group button[type="submit"]:hover {
+  background: #CF7A7A;
+}
+
+.btn {
+  margin: auto;
+}
+
+.center form {
+    display:inline-block;
+}
